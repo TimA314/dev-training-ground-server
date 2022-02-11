@@ -1,0 +1,5 @@
+{
+  "qId": 1,
+  "question": "What is the correct command to create a new React project?",
+  "answer": "npx create-react-app"
+}
