@@ -44,6 +44,6 @@ if (process.env.NODE_ENV !== "production") {
   });
 }
 
-app.listen(PORT, function () {
+app.listen(port, function () {
   console.log("Listening on PORT " + port);
 });
