@@ -9,7 +9,7 @@ const speedLimiter = slowDown({
   delayMs: 1000,
 });
 
-router.get("/tutorials", speedLimiter, (req, res, next) => {
+router.get("/", speedLimiter, (req, res, next) => {
   res.json(tutorials);
 });
 
