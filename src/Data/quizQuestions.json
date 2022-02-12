@@ -1,5 +1,37 @@
-{
-  "qId": 1,
-  "question": "What is the correct command to create a new React project?",
-  "answer": "npx create-react-app"
-}
+[
+  {
+    "qId": 1,
+    "question": "What is the correct command to create a new React project?",
+    "answer": "npx create-react-app"
+  },
+  {
+    "qId": 2,
+    "question": "What does DOM stand for?",
+    "answer": "Document Object Model"
+  },
+  {
+    "qId": 3,
+    "question": "Which programming language is React a library for?",
+    "answer": "JavaScript"
+  },
+  {
+    "qId": 4,
+    "question": "How do you create an element in React?",
+    "answer": "React.createElement()"
+  },
+  {
+    "qId": 5,
+    "question": "How do you create a ref in React?",
+    "answer": "React.createRef()"
+  },
+  {
+    "qId": 6,
+    "question": "What do we call a plain JavaScript object used by React to represent information about the component's current situation?",
+    "answer": "State"
+  },
+  {
+    "qId": 7,
+    "question": "What feature of React allows you to split the UI into independent, reusable pieces?",
+    "answer": "Component"
+  }
+]
