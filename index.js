@@ -1,13 +1,13 @@
 const express = require("express");
 const PORT = 8080;
 
-const quiz = require("./Data/quizeQuestions.json");
+const quiz = require("./Data/quizQuestions.json");
 const tutorials = require("./Data/tutorials.json");
 
 const app = express();
 
 // ------ to allow cross origin calls in dev
-const originPort = 3001; // Front End (React) local port number
+const originPort = 3000; // Front End (React) local port number
 app.use(function (req, res, next) {
   res.setHeader(
     "Access-Control-Allow-Origin",
